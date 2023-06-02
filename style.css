@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("style.css/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+.titulo{
+    font-size: large;
+}
+.cadeiras-barbearia{
+    width: 100%;
+}
+
+/* Estilo para o título principal */
+h1.title {
+    color: #333;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Estilo para a descrição */
+div.description {
+    color: #666;
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px 0;
+    padding: 0 20px;
+    background-color: rgb(224, 224, 224);
+}
+
+/* Estilo para o primeiro parágrafo da descrição */
+p.desc-p1 {
+    margin-bottom: 10px;
+}
+
+/* Estilo para os parágrafos da descrição */
+p.desc-p2 {
+    margin-bottom: 10px;
+}
+
+/* Estilo para o título de benefícios */
+h1.title-benefit {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilo para a lista de benefícios */
+ul.items {
+    color: #666;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 150px;
+}
+
+.barbeiro{
+    width: 50%;
+}
+
+/* Estilo para os itens da lista de benefícios */
+ul.items li {
+    list-style-type: disc;
+    margin-left: 20px;
+
+}
+
+/* Estilo para links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Estilo para links ao passar o mouse */
+a:hover {
+    text-decoration: underline;
+}
+
